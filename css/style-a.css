@@ -7,11 +7,8 @@ a{
   text-decoration: none;
   font-family: "微软雅黑";
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 88d3ca9042412a226af733e872f7aa925d2b6ba3
 #sbar{
   width: 0;
   height: 100%;
@@ -48,7 +45,6 @@ a{
   width: 70px;
   height: 70px;
 }
-<<<<<<< HEAD
 
 #bkg-t{
 	
@@ -88,25 +84,6 @@ input[type=text]:focus{
 }
 .input-but:focus{
 	outline: none;
-=======
-#bkg-t{
-  width: 100%;
-  height: 35%;
-  background: url("../images/toubu-a.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-.mask{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  opacity: 0.2;
->>>>>>> 88d3ca9042412a226af733e872f7aa925d2b6ba3
 }
 .bkg-t-a{
   width: 75px;
@@ -118,37 +95,13 @@ input[type=text]:focus{
   margin-left: 10px;
   z-index: 10;
 }
-<<<<<<< HEAD
 
-=======
-.sidebar{
-  width: 75px;
-  height: 35px;
-  color: #353535;
-  background-color: #fff;
-  line-height: 35px;
-  border-radius: 20px;
-  border: solid 1px #353535;
-  font-weight: lighter;
-  font-size: 0.8em;
-  font-family: "微软雅黑";
-  opacity: 0.9;
-}
-.sidebar:hover{
-  background-color: #353535;
-  color: #fff;
-  border: solid 1px #fff;
-}
->>>>>>> 88d3ca9042412a226af733e872f7aa925d2b6ba3
 #bkg-c{
   width: 100%;
   height: auto;
   background: #;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 88d3ca9042412a226af733e872f7aa925d2b6ba3
 #bkg-c ul{
   width: 65%;
   height: auto;
@@ -186,15 +139,11 @@ input[type=text]:focus{
 	font-size: 0.7em;
 	vertical-align: middle;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 88d3ca9042412a226af733e872f7aa925d2b6ba3
 #bkg-b{
   width: 100%;
   height: auto;
   text-align: center;
-<<<<<<< HEAD
   background: #626567;
 	margin-top: 40px;
 	padding: 20px 0;
@@ -230,24 +179,6 @@ input[type=text]:focus{
 	padding: 10px 0;
 }
 
-=======
-  background: #616161;
-	margin-top: 20px;
-	padding-top: 5px;
-}
-#bkg-b p{
-	color: #FFF;
-  font-family: "微软雅黑";
-}
-.ba{
-	line-height: 20px;
-	font-size: 0.6em;
-}
-.bb{
-	line-height: 20px;
-	font-size: 0.7em;
-}
->>>>>>> 88d3ca9042412a226af733e872f7aa925d2b6ba3
 #zhezhao{
   width: 100%;
   height: 100%;
