@@ -14,21 +14,21 @@
 	 </head>
 	 <body>
 
-			<header id="sbar">
+			<header id="sbar"><!-- 侧栏 -->
 				 <div class="sbar-t">
 						<div id="logo" class="logo"></div>
 						<img src="./images/logo.jpg">
 				 </div>
 			</header>
 
-			<div id="bkg-t">
+			<div id="bkg-t"><!-- 头部 -->
 			</div>
 			<div id="form">
 					<form action="https://mzh.moegirl.org/index.php" method="get" autocomplete="off" class="form"><!-- 搜索框 -->
 							<input type="text" name="search"><button type="submit" data-rippleria class="btn btn-primary input-but" id="">萌娘百科</button>
 					</form>
 			</div>
-			<div id="bkg-c">
+			<div id="bkg-c"><!-- 主体 -->
 				 <ul>
 						<li class="lb">
 							 <ul>
@@ -123,7 +123,8 @@
 						</li>
 				 </ul>
 			</div>
-			<div id="bkg-b">
+
+			<div id="bkg-b"><!-- 底部 -->
 					<div class="pad bkg-b-left">
 							<p class="ba">更多请投稿至2378977735@qq.com</p>
 				 	</div>
@@ -135,7 +136,53 @@
 			<script src="./comjs/jquery.min.js"></script>
 			<script src="./comjs/jquery.rippleria.min.js"></script>
 			<script src="./js/scripts-a.js"></script>
-<script>
+			<!--<script>
+			var logot = true;
+			function onsidebar() {
+			var sbar = $("#sbar");
+			var logo = $("#logod");
+			var zhezhao = $("#zhezhao");
+			var tion = 500;
+			if (logot)
+			{
+			logot = false;
+			sbar.stop();
+			zhezhao.css("display", "block");
+			logo.css("display", "block");
+			sbar.animate({
+			width: "+=40%"
+			}, tion, function() {
+
+			});
+			logo.fadeTo(300, 1);
+			logo.css("opacity", 1);
+			}
+			else
+			{
+			logot = true;
+			sbar.stop();
+			zhezhao.css("display", "none");
+			logo.css("display", "block");
+			sbar.animate({
+			width: "0"
+			}, tion, function() {
+			logo.css("display", "none");
+			});
+			logo.fadeTo(300, 0);
+			logo.css("opacity", 0);
+			};
+			};
+			</script>-->
+<script>/* 判断浏览器 */
+/****
+ var list = document.getElementsByTagName('a');
+ var liat = document.createElement('br');
+ for(var i=0; i<list.length; i++){
+ if(list[i].getAttribute('id') == 'lbbA'){
+ list[i].appendChild(liat);
+ }
+ }
+ ****/
 var userAgentInfo = navigator.userAgent;
 var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"); 
 for (var i = 0; i < Agents.length; i++)
