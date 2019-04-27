@@ -7,48 +7,6 @@ a{
   text-decoration: none;
   font-family: "微软雅黑";
 }
-
-
-#sbar{
-  width: 0;
-  height: 100%;
-  background: #DCDCDC;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 11;
-}
-.sbar-t{
-  width: 100%;
-  height: 15%;
-  padding-top: 10%;
-  background: #C7C7C7;
-  position: relative;
-}
-.logo{
-  width: 70px;
-  height: 70px;
-  background: url("../images/logo.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 35px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  opacity: 0;
-  border-spacing: ;
-}
-.sbar-t img{
-  width: 70px;
-  height: 70px;
-}
-
-#bkg-t{
-	
-}
 #form{
 	width: 100%;
 	height: auto;
@@ -76,9 +34,9 @@ input[type=text]:focus{
 	outline: none;
 }
 .input-but{
-	margin: 0;
 	width: 55px;
 	height: 30px;
+	font-size: 0.8em;
 	box-sizing: content-box;
 	background: #E8F6F3;
 	border: 1px solid #1ABC9C;
@@ -103,11 +61,10 @@ input[type=text]:focus{
 #bkg-c{
   width: 100%;
   height: auto;
-  background: #;
 }
 
 #bkg-c ul{
-  width: 65%;
+  width: 68%;
   height: auto;
   background: ;
   margin: 0 auto;
@@ -118,6 +75,7 @@ input[type=text]:focus{
 	margin-top: 10px;
 	font-family: "微软雅黑";
 	border-bottom: 1px solid #E0E0E0;
+	list-style: none;
 }
 .lb ul{
 	padding-left: 20px;
@@ -127,12 +85,13 @@ input[type=text]:focus{
 	margin-left: -15px;
 	color: #263238;
 	font-size: 1.3em;
+	list-style: none;
 }
 .lbb{
 	list-style-type: disc;
 	list-style-position: outside;
 	color: #37474F;
-	padding-top: 20px;
+	padding-top: 15px;
 	vertical-align: middle;
 }
 .lbb a{
@@ -150,7 +109,7 @@ input[type=text]:focus{
   text-align: center;
   background: #626567;
 	margin-top: 40px;
-	padding: 20px 0;
+	padding: 10px 0;
 	position: absolute;
 }
 
@@ -181,16 +140,4 @@ input[type=text]:focus{
 }
 .pad{
 	padding: 10px 0;
-}
-
-#zhezhao{
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  position: fixed;
-  top: 0;
-	left: 0;
-	opacity: 0.2;
-  z-index: 9;
-  display: none;
 }
